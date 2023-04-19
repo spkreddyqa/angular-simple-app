@@ -31,7 +31,7 @@
     #Pull Docker Image    
     - name: Pull docker image
       docker_image:
-        name: spkreddy/angualarjs
+        name: spkreddy/angularjs
         tag: "{{DOCKER_TAG}}"
         source: pull
     #Create a Directory
